@@ -596,7 +596,7 @@ section{
 }
 
 .contact-us-img-container::after{
-    content: 'Contact Us. We can’t wait to work with you and grow your business.';
+    content: 'Contact Me. I truly cannot wait to work with you and grow your business.';
     position: absolute;
     bottom: -2rem;
     padding: 2rem;
