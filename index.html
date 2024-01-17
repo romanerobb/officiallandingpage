@@ -329,13 +329,22 @@
         <div class="contact-us">
             <h3 class="section-title">Drop me an email. I'm a very prompt communicator.</h3>
 
-            <form class="contact-form">
+            <form class="contact-form" method="post" action="mailto:mail@romanerobb.com">
                 <input type="text" required placeholder="Name" name="name">
                 <input type="email" required placeholder="Email" name="email">
                 <input type="text" required placeholder="Your business goal" name="goal">
                 <textarea name="body" placeholder="Tell me more about your business.." required></textarea>
                 <button type="submit" class="btn primary-btn">contact me</button>
             </form>
+
+            <!-- <form class="contact-form" method="post" name="contact_form" action="contact-form-handler.php">
+                <input type="text" required placeholder="Name" name="name">
+                <input type="email" required placeholder="Email" name="email">
+                <input type="text" required placeholder="Your business goal" name="goal">
+                <textarea name="body" placeholder="Tell me more about your business.." required></textarea>
+                <button type="submit" class="btn primary-btn">contact me</button>
+            </form> -->
+
         </div>
 
     </section>
